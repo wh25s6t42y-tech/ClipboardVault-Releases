@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "product": "Clipboard Vault",
+  "publicVersion": "1.00",
+  "technicalVersion": "1.0.0",
+  "channel": "beta",
+  "publishedAtUtc": "2026-08-16T18:44:31Z",
+  "releasePageUrl": "https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.0",
+  "releaseNotesUrl": "https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/blob/main/RELEASE_NOTES.md",
+  "downloadUrl": "https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/download/v1.0.0/ClipboardVault-1.00-Beta-Windows11-x64.zip",
+  "fileName": "ClipboardVault-1.00-Beta-Windows11-x64.zip",
+  "sha256": "2d1dc32ec2cc9616f92ea849d94c0e9fa4cbecc16b001a56255a001873ec7b6b",
+  "sizeBytes": 93910253,
+  "minimumWindowsBuild": 22000,
+  "mandatory": false
+}
