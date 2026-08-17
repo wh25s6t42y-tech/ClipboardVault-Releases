@@ -8,7 +8,7 @@ Official Windows downloads and update information for Clipboard Vault.
 Technical version: `1.0.0`  
 Platform: Windows 11 x64
 
-[Download from GitHub Releases](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.0)
+[Download from GitHub Releases](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.1)
 
 Download `ClipboardVault-1.00-Beta-Windows11-x64.zip`, extract it, and run `INSTALL.cmd`.
 
