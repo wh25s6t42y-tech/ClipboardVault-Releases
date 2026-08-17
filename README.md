@@ -4,8 +4,8 @@ Official Windows downloads and update information for Clipboard Vault.
 
 ## Current release
 
-**Clipboard Vault 1.02 Beta**  
-Technical version: `1.0.1`  
+**Clipboard Vault 1.00 Beta**  
+Technical version: `1.0.2`  
 Platform: Windows 11 x64
 
 [Download from GitHub Releases](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.2)
