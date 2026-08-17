@@ -1,23 +1,34 @@
 # Clipboard Vault
 
-Official Windows downloads and update information for Clipboard Vault.
+Private, local-first clipboard manager for Windows 11.
 
-## Current release
+Clipboard Vault stores clipboard history on your PC using encrypted local storage. No account, cloud service or telemetry is required.
 
-**Clipboard Vault 1.00 Beta**  
-Technical version: `1.0.2`  
-Platform: Windows 11 x64
+## Download
 
-[Download from GitHub Releases](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.2)
+**Public version:** Clipboard Vault 1.00 Beta
+**Technical version:** `1.0.2`
+**Platform:** Windows 11 x64, build 22000 or newer
 
-Download `ClipboardVault-1.00-Beta-Windows11-x64.zip`, extract it, and run `INSTALL.cmd`.
+[Download Clipboard Vault](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/download/v1.0.2/ClipboardVault-1.00-Beta-Windows11-x64.zip)
 
-This beta is not code-signed. Windows may show an **Unknown publisher** warning. Download only from this repository and verify the SHA-256 checksum before running it.
+[View release notes](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/tag/v1.0.2)
 
-## SHA-256
+## Install or update
+
+1. Download and extract `ClipboardVault-1.00-Beta-Windows11-x64.zip`.
+2. If Clipboard Vault is already running, exit it using the tray icon.
+3. Run `INSTALL.cmd`.
+4. Open Clipboard Vault from the Start menu.
+
+Installing an update preserves clipboard history, settings and encryption data.
+
+## Verify the download
+
+SHA-256:
 
 ```text
-2d1dc32ec2cc9616f92ea849d94c0e9fa4cbecc16b001a56255a001873ec7b6b
+551136fc4165530f014258cf4c6e8b7e7f1c1e3d155e67e78761cbc49641e4b8
 ```
 
 PowerShell:
@@ -26,14 +37,38 @@ PowerShell:
 Get-FileHash .\ClipboardVault-1.00-Beta-Windows11-x64.zip -Algorithm SHA256
 ```
 
-The result must match the checksum above exactly.
+The result must match the checksum exactly.
+
+[Download the SHA-256 file](https://github.com/wh25s6t42y-tech/ClipboardVault-Releases/releases/download/v1.0.2/ClipboardVault-1.00-Beta-Windows11-x64.zip.sha256)
+
+## Windows security warning
+
+This beta is not code-signed. Windows may display an **Unknown publisher** warning.
+
+Download Clipboard Vault only from this repository and verify the SHA-256 checksum before installation.
 
 ## Privacy
 
-Clipboard history and encrypted storage stay on the user's PC. Clipboard Vault has no required account, cloud clipboard, telemetry, advertising, or analytics.
+Clipboard history and encrypted storage remain on the user's PC.
 
-A manual update check only reads `latest.json` from this repository. It never sends clipboard content and never downloads or starts an update automatically.
+Clipboard Vault has:
+
+* No required account
+* No cloud clipboard
+* No advertising
+* No analytics
+* No telemetry
+
+The manual update check only reads `latest.json` from this repository. Clipboard Vault never sends clipboard content and never downloads or starts updates automatically.
+
+## Uninstall
+
+Remove Clipboard Vault through **Windows Settings → Apps → Installed apps**, or run `UNINSTALL.cmd`.
+
+Uninstalling the application preserves local history and settings.
 
 ## About this repository
 
-This repository contains release packages, checksums, release notes, and update metadata only. Application source code, tests, build tools, credentials, and signing keys are not published here.
+This repository contains official release packages, checksums, release notes and update metadata.
+
+Application source code, tests, build tools, credentials and signing keys are not published here.
